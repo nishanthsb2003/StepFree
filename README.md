@@ -1,101 +1,154 @@
-🦿 StepFree – Affordable, Eco-Friendly Prosthetic Leg
-
+🦿 StepFree – AI-Assisted, Eco-Friendly Prosthetic Leg
 From Disability to Ability. From Mobility to Freedom.
-
 🚨 Problem Statement
 
-5M+ amputees in India are underserved (WHO).
+5M+ amputees in India struggle without proper prosthetic solutions (WHO).
 
-Imported prosthetics cost ₹2–5 Lakh → unaffordable for 80% families.
+Imported prosthetic legs cost ₹2–5 lakh, far beyond what 80% of families can afford.
 
-Jaipur Foot is cheap (~₹10–20k) but lacks comfort, durability, and modern design.
+Low-cost models (₹10–20k) like Jaipur Foot lack durability, comfort, and modern motion functionality.
 
-Rural India: 70% of amputees have no access to advanced prosthetic clinics.
+70% of amputees live in rural/semi-urban areas, with little or no access to prosthetic clinics.
 
-👉 Result: 8 out of 10 amputees live without mobility, independence, or dignity.
+👉 Result: 8 out of 10 amputees live without mobility, employment, or dignity.
 
-💡 Our Solution – StepFree
+💡 Our Solution — StepFree
 
-StepFree is an affordable, eco-friendly, modular prosthetic leg designed for India and developing countries.
+StepFree is an affordable, modular, eco-friendly prosthetic leg designed for India and developing nations.
+It integrates AI-assisted knee movement, EMG-based intent detection, and shock absorption — all under a budget Indian families can afford.
 
-Key Features:
+⭐ Key Features (Crisp & Powerful)
 
-💰 Cost: ₹8k–₹12k (~10x cheaper than imports)
+🧠 AI-Powered Knee Motion
+Trained AI predicts user intent and automates knee angles (0° & 45°).
 
-🌱 Eco-Materials: Bamboo, hemp, recycled plastics, aluminium, rubber
+⚡ Neural EMG Control
+Non-invasive EMG patches capture muscle signals for Rest/Lift actions.
 
-🦿 Shock Absorber: Natural gait + reduced strain
+💰 Ultra-Low-Cost Build
+90% cheaper than imports — production feasible at ₹10k–₹18k.
 
-📱 Custom Fit: 3D scanning + AI CAD-generated sockets
+🖨️ 3D-Printed Custom Fit
+3D scanning + printing deliver a perfect, personalized socket.
 
-🛠 Modular Design: Replaceable parts → lower maintenance cost
+🌱 Modular & Eco-Friendly Materials
+Bamboo, hemp, recycled plastics, aluminium, rubber.
 
-🚐 Portable Fabrication: Outreach-ready for rural clinics
+🦿 Integrated Shock Absorber
+Reduces impact, improves comfort, and supports natural gait.
 
-🛠️ Tech Stack
+🚐 Portable Fabrication
+On-the-spot production during rural outreach clinics.
 
-3D Scanning: Mobile/Web App
+🧩 Tech Stack
+🔧 Hardware
 
-CAD Tools: Blender, FreeCAD
+ESP32 microcontroller
 
-3D Printing: Open-source slicers + eco-material composites
+EMG Sensor (AD8232)
 
-(Future) IoT Sensors + AI Gait Analysis
+Servo Motor (MG996R)
+
+Shock absorber unit
+
+3D-printed modular frame
+
+Power supply (5V/2A + capacitors)
+
+🧠 Software / AI
+
+Python (signal preprocessing)
+
+TensorFlow / Scikit-learn (intent classification)
+
+Serial communication (EMG → AI → servo)
+
+Edge deployment on ESP32
+
+🛠️ Design & Fabrication
+
+Fusion 360 / SolidWorks (CAD)
+
+Cura / PrusaSlicer (3D printing)
+
+PETG / PLA eco-filament
 
 ⚙️ Workflow
-
-📱 Limb Scan → ☁️ AI CAD Model → 🖨 3D Print Socket → 🌱 Eco-Material Fabrication → ⚙️ Assembly + Shock Absorber → 🚶 Mobility Restored
-
-(See workflow diagram in /assets/workflow.png)
+📱 Limb Scan  
+      ↓  
+☁️ AI CAD Model Generation  
+      ↓  
+🖨️ 3D Print Custom Socket  
+      ↓  
+🌱 Eco-Material Frame Fabrication  
+      ↓  
+⚙️ Assembly + Shock Absorber  
+      ↓  
+🚶 Restored Mobility & Confidence
 
 🌟 Impact & Benefits
+🌍 Social Impact
 
-🌍 Social: Restores dignity, independence, employability
+Restores independence, dignity, confidence
 
-💰 Economic: 10x cheaper; scalable to India & Global South
+Reduces social isolation for rural amputees
 
-🌱 Environmental: Uses bamboo, hemp, and recycled materials
+💰 Economic Impact
 
-🤝 Accessibility: Rural outreach via portable fabrication units
+10× cheaper than imported prosthetics
 
-📈 Scalability: Export-ready; future IoT integration
+Affordable for low-income, rural users
 
-📂 Repo Contents
-/docs        → Problem statement, reports, references  
-/assets      → Diagrams, mockups, workflow visuals  
-README.md    → Project overview (this file)  
+🌱 Environmental Impact
 
-🔮 Future Scope
+Uses sustainable bamboo, hemp, and recycled plastics
 
-Patentable adjustable shock absorber system
+🤝 Accessibility
 
-IoT-enabled gait tracking + AI-based mobility analysis
+Designed for rural deployment via mobile fabrication units
 
-Cosmetic shells for aesthetics
+📈 Scalability
 
-Sports prosthetics for active users
+Fits below-knee & above-knee modules
 
-👥 👥 Team – StepFree
+AI model expandable to live control, walk mode, gait analysis
 
-Nishanth Shetty B – Team Lead | Strategy, Design, Documentation, Leadership, Opportunity Scouting
+🚀 Future Scope
 
-Shibhan – Marketing & Outreach
+Patentable shock absorber mechanism
+
+IoT-enabled gait analysis with motion sensors
+
+Advanced neural-control for continuous walking
+
+Cosmetic covers for aesthetics
+
+Special versions for sports & active users
+
+👥 Team — StepFree
+
+Nishanth Shetty B – Team Lead · Design · Strategy · Documentation
+
+Mohammed Shakeer – Hardware Lead · CAD & Mechanical Development
 
 Hima Dinesh – Materials & Sustainability
 
 Mehak Fathima Marakini – Research & Documentation
 
-Mohammed Shakeer – Hardware & CAD Development
+Shibhan – Marketing & Outreach
 
-🙌 Acknowledgements
+🙏 Acknowledgements
 
-BMVSS (Jaipur Foot) & ALIMCO – inspiration & reference
+BMVSS (Jaipur Foot) – Reference for affordability
 
-WHO, NFHS-5 Reports – data on amputees & accessibility
+ALIMCO – Research insights
 
-Hackathons & Ideathons – platform to shape StepFree
+WHO & NFHS-5 – Amputee accessibility data
+
+Hackathons & Ideathons – Platform to refine StepFree
 
 📜 License
 
-This project is under development. Certain design elements are confidential due to patent filing. Safe demo content is open-source under MIT License
-.
+This project is under active development.
+Some mechanical designs are confidential due to patent filing.
+Public components are released under the MIT License.
